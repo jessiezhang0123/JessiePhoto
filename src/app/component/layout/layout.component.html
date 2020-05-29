@@ -1,0 +1,13 @@
+<nz-content class="inner-content">
+    <nz-carousel nzAutoPlay nzDots [nzEffect]="effect">
+        <div nz-carousel-content *ngFor="let photo of listOfPhoto">        
+        <div class = "playPhoto">
+            <img src = "{{photo}}" />
+        </div>         
+        </div>
+    </nz-carousel>   
+</nz-content>
+<!-- <div>
+    <nz-footer>Copyright ©2020 Implement By JessiePhoto</nz-footer>
+</div> -->
+  
